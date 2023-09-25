@@ -1,0 +1,118 @@
+.header-text {
+  color: antiquewhite;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#cancel-search {
+  display: inline-block;
+  padding: 8px;
+  height: 47px;
+  width: 52px;
+  border: 1px solid #198754;
+  border-radius: 50%;
+  color: #198754;
+  text-align: center;
+  cursor: pointer;
+}
+
+#cancel-search:hover {
+  background-color: #198754;
+  color: whitesmoke;
+}
+
+.card-body {
+  padding: 20px;
+  cursor: pointer;
+  color: #666666;
+}
+
+.card-body:hover {
+  box-shadow: 0 0 2px 1px #198754;
+}
+
+.card-img,
+.friend-modal-img {
+  max-width: 200px;
+  border-radius: 50%;
+}
+
+.fa-venus {
+  color: tomato;
+}
+
+.fa-mars {
+  color: steelblue;
+}
+
+.modal-footer {
+  font-size: 22px;
+}
+
+.like-btn, 
+.dislike-btn,
+.remove-like-btn {
+  color: grey;
+  cursor: pointer;
+}
+
+.like-btn:hover {
+  color: tomato;
+}
+
+.dislike-btn:hover {
+  color: saddlebrown;
+}
+
+.remove-like-btn:hover {
+  color: purple;
+}
+
+.friend-modal-keys {
+  display: inline-block;
+  width: 40px;
+  color: gray;
+}
+
+.footer-nav {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: end;
+  padding: 20px 50px;
+}
+
+.back-to-top {
+  z-index: 1000;
+  padding: 15px;
+  border: 1px solid #198754;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #198754;
+  cursor: pointer;
+}
+
+.back-to-top:hover {
+  background-color: #198754;
+  color: whitesmoke;
+}
+
+.devtools {
+  opacity: 0;
+}
+
+.devtools:hover {
+  opacity: 1;
+}
+
+.navbar-scrolled {
+  opacity: 0;
+}
+
+#navbar:hover {
+  opacity: 1;
+}
+
+.dropdown-item {
+  cursor: pointer;
+}
